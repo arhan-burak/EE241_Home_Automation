@@ -14,11 +14,16 @@ This project will cover the development and implementation of a home automation 
 
 <summary><h3>Objectives 💭</h3></summary>
   
-- Comfort: Automate everyday tasks such as lighting, climate control, and appliance management to provide convenience and a better living experience.
-- Energy Efficiency: Use smart devices to optimize energy consumption, such as adjusting heating/cooling and turning off unused appliances.
-- Security: Implement real-time monitoring and alert systems to enhance home safety, including smart locks, cameras, and motion sensors.
-- Accessibility: Provide remote access and control through a mobile app and voice commands.
-- Scalability: Ensure the system is modular, allowing future expansion with additional devices and features.
+- Comfort 🛌🏻:
+> Automate everyday tasks such as lighting, climate control, and appliance management to provide convenience and a better living experience.
+- Energy Efficiency 🔋:
+> Use smart devices to optimize energy consumption, such as adjusting heating/cooling and turning off unused appliances.
+- Security 🛡️:
+> Implement real-time monitoring and alert systems to enhance home safety, including smart locks, cameras, and motion sensors.
+- [ ] Accessibility 📱:
+> Provide remote access and control through a web interface.
+- [ ] Scalability 🔩:
+> Ensure the system is modular, allowing future expansion with additional devices and features.
 </details>
 
 <details>
