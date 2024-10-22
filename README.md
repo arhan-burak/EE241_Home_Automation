@@ -12,11 +12,7 @@ This project will cover the development and implementation of a home automation 
 
 <details>
 
-<summary>
-<h3>Objectives 💭</h3>
-
-The goals of the project, ensuring that it meets daily needs.
-</summary>
+<summary><h3>Objectives 💭</h3></summary>
   
 - Comfort: Automate everyday tasks such as lighting, climate control, and appliance management to provide convenience and a better living experience.
 - Energy Efficiency: Use smart devices to optimize energy consumption, such as adjusting heating/cooling and turning off unused appliances.
@@ -26,7 +22,7 @@ The goals of the project, ensuring that it meets daily needs.
 </details>
 
 <details>
-<summary><h2>Features 🧮:</h2></summary>
+<summary><h3>Features 🧮:</h3></summary>
 
 ___*Codes for the features will be written as the course progresses, more features may be added throughout the semester for better functionality.___
 - [ ] Smart Lighting 💡:
