@@ -20,9 +20,9 @@ This project will cover the development and implementation of a home automation 
 > Use smart devices to optimize energy consumption, such as adjusting heating/cooling and turning off unused appliances.
 - Security 🛡️:
 > Implement real-time monitoring and alert systems to enhance home safety, including smart locks, cameras, and motion sensors.
-- [ ] Accessibility 📱:
+- Accessibility 📱:
 > Provide remote access and control through a web interface.
-- [ ] Scalability 🔩:
+- Scalability 🔩:
 > Ensure the system is modular, allowing future expansion with additional devices and features.
 </details>
 
