@@ -22,7 +22,7 @@ This project will cover the development and implementation of a home automation 
 </details>
 
 <details>
-<summary><h3>Features 🧮:</h3></summary>
+<summary><h3>Features 🧮</h3></summary>
 
 ___*Codes for the features will be written as the course progresses, more features may be added throughout the semester for better functionality.___
 - [ ] Smart Lighting 💡:
