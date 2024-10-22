@@ -1,6 +1,6 @@
 # Smart Home Automation System 🏠 / EE241 - 2024 Fall Course #
 
-### Group Participants👥 ###
+### Group Participants 👥 ###
 Arhan Burak Tüzün, Duru Koru, Eylül Lâl Alnıpak
 
 ### Project Overview 🔍 ###
