@@ -19,9 +19,9 @@ This project will cover the development and implementation of a home automation 
 - Energy Efficiency 🔋:
 > Use smart devices to optimize energy consumption, such as adjusting heating/cooling and turning off unused appliances.
 - Security 🛡️:
-> Implement real-time monitoring and alert systems to enhance home safety, including smart locks and motion sensors.
+> Implement real-time monitoring and alert systems to enhance home safety, including smart locks, ~~cameras~~ and motion sensors. (Camera connection suspended until learning if possible with BASYS3 board.)
 - Accessibility 📱:
-> Provide remote access and control through a web interface.
+> ~~Provide remote access and control through a web interface.~~ (Suspended until learning if possible with BASYS3 board.)
 - Scalability 🔩:
 > Ensure the system is modular, allowing future expansion with additional devices and features.
 </details>
@@ -35,7 +35,7 @@ ___*Codes for the features will be written as the course progresses, more featur
 - [ ] Smart Thermostat 🌡️:
 > Adaptive temperature control for energy efficiency and comfort.
 - [ ] Security System 🔒:
-> Motion detectors, and door/window sensors with real-time notifications. (Camera connection suspended until learning if possible with BASYS3 board.)
+> Motion detectors, ~~cameras~~ and door/window sensors with real-time notifications. (Camera connection suspended until learning if possible with BASYS3 board.)
 - [ ] Smart Plugs🔌:
 > Automated control of various appliances with energy monitoring capabilities.
 - [ ] ~~Web Control 🌐~~:
