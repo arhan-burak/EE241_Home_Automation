@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Nov  7 23:04:28 2024
+# Process ID: 11672
+# Current directory: C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.runs/synth_1
+# Command line: vivado.exe -log home_automation.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source home_automation.tcl
+# Log file: C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.runs/synth_1/home_automation.vds
+# Journal file: C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.runs/synth_1\vivado.jou
+# Running On        :Arhan
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22635
+# Processor Detail  :AMD Ryzen 7 7840HS w/ Radeon 780M Graphics     
+# CPU Frequency     :3793 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :50775 MB
+# Swap memory       :3221 MB
+# Total Virtual     :53996 MB
+# Available Virtual :34311 MB
+#-----------------------------------------------------------
+source home_automation.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 530.820 ; gain = 198.430
+Command: synth_design -top home_automation -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20384
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 986.883 ; gain = 453.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'home_automation' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/topmodule.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SmartLighting' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_lighting.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SmartLighting' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_lighting.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SmartThermostat' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_thermostat.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SmartThermostat' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_thermostat.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SecuritySystem' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/security_system.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SecuritySystem' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/security_system.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SmartPlug' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_plug.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SmartPlug' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/smart_plug.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WebControl' [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/web_control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WebControl' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/web_control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'home_automation' (0#1) [C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.srcs/sources_1/new/topmodule.v:1]
+WARNING: [Synth 8-7129] Port clk in module home_automation is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1095.293 ; gain = 561.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1095.293 ; gain = 561.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1095.293 ; gain = 561.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1095.293 ; gain = 561.500
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   10 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7a35tcpg236-1 does not have CEAM library.
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port clk in module home_automation is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     7|
+|2     |LUT2   |    12|
+|3     |LUT3   |    28|
+|4     |LUT4   |     9|
+|5     |LUT5   |     7|
+|6     |IBUF   |    23|
+|7     |OBUF   |     6|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+----------------+------+
+|      |Instance           |Module          |Cells |
++------+-------------------+----------------+------+
+|1     |top                |                |    92|
+|2     |  security_system  |SecuritySystem  |     1|
+|3     |  smart_lighting   |SmartLighting   |     1|
+|4     |  smart_plug       |SmartPlug       |     1|
+|5     |  smart_thermostat |SmartThermostat |    60|
++------+-------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1289.977 ; gain = 756.184
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1293.820 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1390.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 88eb4f48
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1390.367 ; gain = 859.547
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1390.367 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/arhan/EE241_Home_Automation/EE241_Home_Automation.runs/synth_1/home_automation.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file home_automation_utilization_synth.rpt -pb home_automation_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 23:04:58 2024...
