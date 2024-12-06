@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Dec  6 04:00:01 2024
+# Process ID         : 14400
+# Current directory  : C:/Users/arhan/jghf/EE241_Home_Automation_Behavioral/EE241_Home_Automation_Behavioral.runs/impl_1
+# Command line       : vivado.exe -log home_automation.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source home_automation.tcl -notrace
+# Log file           : C:/Users/arhan/jghf/EE241_Home_Automation_Behavioral/EE241_Home_Automation_Behavioral.runs/impl_1/home_automation.vdi
+# Journal file       : C:/Users/arhan/jghf/EE241_Home_Automation_Behavioral/EE241_Home_Automation_Behavioral.runs/impl_1\vivado.jou
+# Running On         : Arhan
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22635
+# Processor Detail   : AMD Ryzen 7 7840HS w/ Radeon 780M Graphics     
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 50775 MB
+# Swap memory        : 3221 MB
+# Total Virtual      : 53996 MB
+# Available Virtual  : 37188 MB
+#-----------------------------------------------------------
+source home_automation.tcl -notrace
